@@ -1,0 +1,48 @@
+{
+  "buildFiles": [
+    "/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/src/main/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/src/main/jni/Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "libraries": {
+    "jni_mix-debug-armeabi-v7a": {
+      "buildCommand": "/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/src/main/jni/Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/build/intermediates/ndkBuild/debug/lib /Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libjni_mix.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "jni_mix",
+      "files": [
+        {
+          "src": "/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/src/main/jni/aes.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-exceptions -fno-rtti -gcc-toolchain /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 -fpic -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/cxx-stl/system/include -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/android/support/include -I/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -fexceptions -fexceptions --sysroot /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sysroot -isystem /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/src/main/jni/find_name.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-exceptions -fno-rtti -gcc-toolchain /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 -fpic -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/cxx-stl/system/include -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/android/support/include -I/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -fexceptions -fexceptions --sysroot /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sysroot -isystem /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/src/main/jni/get_cpu.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-exceptions -fno-rtti -gcc-toolchain /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 -fpic -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/cxx-stl/system/include -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/android/support/include -I/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -fexceptions -fexceptions --sysroot /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sysroot -isystem /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/src/main/jni/get_decrypt.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-exceptions -fno-rtti -gcc-toolchain /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 -fpic -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/cxx-stl/system/include -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/android/support/include -I/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -fexceptions -fexceptions --sysroot /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sysroot -isystem /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/src/main/jni/get_encrypt.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-exceptions -fno-rtti -gcc-toolchain /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 -fpic -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/cxx-stl/system/include -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sources/android/support/include -I/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -fexceptions -fexceptions --sysroot /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sysroot -isystem /Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi"
+        }
+      ],
+      "output": "/Users/seachal/Documents/SeachalGit/Android/ouyangshen-android2/mixture/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libjni_mix.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "/Users/seachal/DevelopmentEnvironment/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
